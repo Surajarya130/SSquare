@@ -1,0 +1,286 @@
+/* .benefitsOfDecluttering{
+    margin: 70px 0px;
+    display: flex;
+    position: relative;
+} */
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Sarabun');
+/*
+pink->
+color: #ec008c;
+hover: #c40476;
+font-family: 'Sarabun', sans-serif;
+*/
+*{
+	font-family: 'Sarabun', sans-serif;
+	-webkit-tap-highlight-color:  rgba(255, 255, 255, 0);
+}
+body{
+  margin: 0 auto;
+  font-size: 15px;
+  overflow-x: hidden;
+}
+::-webkit-scrollbar{width:10px;}
+::-webkit-scrollbar-track{background:rgba(0,0,0,0.2);}
+::-webkit-scrollbar-track:hover{background:rgba(51,82,164,0.2);}
+::-webkit-scrollbar-thumb{background:rgba(0,0,0,0.5);border:1px solid rgba(0,0,0,0.1);border-radius:0px 0px 5px 5px;}
+::-webkit-scrollbar-thumb:hover{background:#ec008c;border:1px solid #c40476;}
+::-webkit-scrollbar-thumb:window-inactive{background:rgba(0,0,0,0.5);}
+
+.container{
+  position: relative;
+  box-sizing: border-box;
+  width: 1200px;
+  max-width: 94%;
+  margin: 0 auto;
+}
+
+a{
+  color: #ec008c;
+  text-decoration: none;
+  cursor: pointer;
+}
+a:hover{
+  color: #c40476;
+}
+h1, h2, h3, h4, h5{
+  display: block;
+  margin: 15px 0px;
+  line-height: 1.5;
+  color: #151515;
+}
+
+.cText{
+    text-align: center;
+    font-size: 21px;
+    color: black;
+    font-weight: bold;
+    font-family: inherit;
+}
+
+p{
+    color:#6A6A6A;
+}
+
+button{
+  border: 0px;
+  outline: 0px;
+  background-color: #ec008c;
+  border-radius: 5px;
+  padding: 12px 25px;
+  font-weight: bold;
+  color: #ffffff;
+  cursor: pointer;
+  /*width: 125%;*/
+}
+button:hover{
+	background-color: #c40476;
+}
+
+
+.container{
+    position: relative;
+    box-sizing: border-box;
+    width: 977px;
+    max-width: 95%;
+    margin: 0 auto;
+    height: auto;
+    /* border: 1px solid black; */
+}
+
+.floorIntro, .textBeneath{
+    margin: 70px auto;
+}
+
+.whyDeclutter, .benefitsOfDecluttering{
+    margin: 70px 0px;
+    display: flex;
+    position: relative;
+}
+
+.howHelpDe, .howToBook, .serviceOffer, .forWhom{
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+}
+
+.forWhomMain{
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.whyOurService{    
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    justify-content: space-between;
+}
+
+.helpMoreText{
+    margin: 0 auto;
+}
+
+.whyDeclutter .whyDeclutterChild, .howHelpDeCont, .howToBookContent{
+    width: 50%;
+    position: relative;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+
+.leftSideImg{
+    /* float: right; */
+    position: relative;
+    left: 20px;
+    top: 0;
+    max-width: 95%;
+}
+
+
+.minimalistHome{
+    margin: 70px 0px;
+    /* display: flex; */
+    position: relative; 
+    /* border: 1px solid red; */
+}
+
+
+.beneOfDe-Content{
+    width: 50%;
+    position: relative;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+    list-style-image: url(./img/vectorLi.png);
+    position: relative;
+    top: -4px;
+    padding-right: 25px;
+}
+
+.beneOfDe-Content ul li{
+    color: #6A6A6A;
+    font-size: 15px;
+    line-height: 50px;
+}
+
+.editLi{
+    position: relative;
+    top: 4px;
+    left: 10px;
+}
+
+.pinkText{
+    font-size: 21px;
+    color: #EC008C;
+    font-weight: bold;
+}
+
+
+/* Process Number Section */
+.processNum hr{
+    width: 98%;
+    margin-left: 0;
+}
+.numElement{
+    width: 100%;
+    display: flex;
+}
+.numList{
+    width: 13%;
+    font-size: 36px;
+    font-weight: bold;
+    color: #CECECE;
+}
+.numContent{
+    width: 87%;
+    /* margin-left: 20%; */
+}
+.numContent p{
+    line-height: 20px;
+}
+
+.zTwo{
+    position: relative;
+    top: 8px;
+}
+
+.pinkInfo{
+    margin: 15px 14px 20px 15px;
+    color: #464545;
+    font-size: 15px;
+
+}
+
+
+.forWhomContainer{
+    width: 33%;
+    /* height: 146px; */
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 5px #d4d4d4;
+}
+
+.whyOurServiceContainer{
+    width: 24%;
+    height: 239px;
+    margin-bottom: 20px;
+    /* border: 1px dotted blue; */
+    background-color: #FCFCFC;
+}
+
+.pinkIcon{
+    margin:20px 41% 0 41%;
+}
+
+.pinkSec{
+    margin: 30px 110px 20px 110px;
+}
+
+.pinkSecText{
+    margin: 15px 18px 0 18px;
+    color: #464545;
+    font-size: 15px;    
+}
+
+@media screen and (max-width: 999px){
+    .whyOurServiceContainer{
+        width: 33%;
+    }
+}
+
+
+@media screen and (max-width: 699px){
+    .whyDeclutter, .benefitsOfDecluttering, .howHelpDe, .howToBook{
+        display: block;
+    }
+
+    .whyDeclutter .whyDeclutterChild, .beneOfDe-Content, .howHelpDeCont, .howToBookContent{
+        width: 100%;
+    }
+    .forWhomContainer{
+        width: 50%;
+    }
+    .whyOurServiceContainer{
+        width: 45%;
+    }
+    .whyOurService{
+        justify-content: space-around;
+    }
+
+}
+
+@media screen and (max-width: 499px){
+    .forWhomContainer{
+        width: 100%;
+    }
+    .whyOurServiceContainer{
+        width: 90%;
+    }
+    .pinkSec {
+        margin: 30px 0px 20px 20px;
+    }
+}
