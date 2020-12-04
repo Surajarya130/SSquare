@@ -120,6 +120,11 @@ button{
       background-color: #c40476;
   }
 
+.textOnBtn{
+    margin: 0; 
+    padding: 0;
+}  
+
 .container{
     position: relative;
     box-sizing: border-box;
@@ -297,11 +302,15 @@ button{
     }
     .btnSect{
         display: block;
+        height: 42px;
     }
+
+
     .btnMain, .btnWords{
         justify-content: center;
         position: relative;
         left: 0;
+        top: -15px;
     }
 
     .whyDeclutter .whyDeclutterChild, .beneOfDe-Content, .howHelpDeCont, .howToBookContent{
@@ -322,6 +331,9 @@ button{
 @media screen and (max-width: 499px){
     .forWhomContainer{
         width: 100%;
+    }
+    .floImg{
+        height: 80px;
     }
     .whyOurServiceContainer{
         width: 90%;
