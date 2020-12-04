@@ -66,21 +66,59 @@ p{
     color:#6A6A6A;
 }
 
-button{
-  border: 0px;
-  outline: 0px;
-  background-color: #ec008c;
-  border-radius: 5px;
-  padding: 12px 25px;
-  font-weight: bold;
-  color: #ffffff;
-  cursor: pointer;
-  /*width: 125%;*/
+.upperContainer{
+    position: relative;
+    box-sizing: border-box;
+    width: 1200px;
+    max-width: 95%;
+    /* height: 400px; */
+    margin: 0 auto;
+    /* border: 1px solid black; */
 }
-button:hover{
-	background-color: #c40476;
+.imgSect{
+    max-width: 100%;
+    width: inherit;
+}
+.btnSect{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0px;
+    position: relative;
+    top: -13px;
+    background-color: #E6E6E6;
+    border-radius: 0 0 5px 5px;
+}
+.btnWords{
+    display: flex;
+    /* border: 2px solid yellow; */
+    position: relative;
+    left: 50px;
 }
 
+.btnMain{
+    display: flex;
+    /* border: 2px solid blue;   */
+    position: relative;
+    right: 50px;
+}
+
+
+button{
+    border: 0px;
+    outline: 0px;
+    background-color: #ec008c;
+    border-radius: 5px;
+    padding: 12px 25px;
+    font-weight: bold;
+    color: #ffffff;
+    cursor: pointer;
+    /*width: 125%;*/
+  }
+  button:hover{
+      background-color: #c40476;
+  }
 
 .container{
     position: relative;
@@ -137,7 +175,7 @@ button:hover{
 .leftSideImg{
     /* float: right; */
     position: relative;
-    left: 20px;
+    left: 0px;
     top: 0;
     max-width: 95%;
 }
@@ -256,6 +294,14 @@ button:hover{
 @media screen and (max-width: 699px){
     .whyDeclutter, .benefitsOfDecluttering, .howHelpDe, .howToBook{
         display: block;
+    }
+    .btnSect{
+        display: block;
+    }
+    .btnMain, .btnWords{
+        justify-content: center;
+        position: relative;
+        left: 0;
     }
 
     .whyDeclutter .whyDeclutterChild, .beneOfDe-Content, .howHelpDeCont, .howToBookContent{
