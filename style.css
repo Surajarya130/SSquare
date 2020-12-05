@@ -145,7 +145,7 @@ button{
     position: relative;
 }
 
-.howHelpDe, .howToBook, .serviceOffer, .forWhom{
+.howHelpDe, .howToBook, .forWhom{
     margin: 0 auto;
     display: flex;
     position: relative;
@@ -175,6 +175,63 @@ button{
     position: relative;
     box-sizing: border-box;
     /* border: 1px solid red; */
+}
+
+.serviceOffer{
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    position: relative;
+    justify-content: space-between;
+}
+
+.serviceOfrLeft{
+    width: 65%;
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.serviceOfrLeftContent{
+    width: 42%;
+    padding: 20px;
+    background-color: #FCFCFC;
+    margin-bottom: 20px;
+}
+
+.modiRight{
+    width: 80%;
+    height: 94%;
+}
+
+.serviceOfrLeftContent ul li{
+    list-style: none;
+    line-height: 22px;
+}
+
+.serviceOfrLeftContent li::before {
+    content: "\2022";
+    color: #EC008C;
+    font-weight: bold;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.serviceOfrLeftContent ul{
+    position: relative;
+    left: -40px;    
+    width: 92%;
+}
+
+.serviceOfrRight{
+    width: 33%;
+    height: inherit;
+    /* border: 1px solid blue; */
+    position: relative;
+    box-sizing: border-box;
 }
 
 .leftSideImg{
@@ -264,7 +321,7 @@ button{
     width: 33%;
     /* height: 146px; */
     margin-bottom: 20px;
-    box-shadow: 5px 5px 5px #d4d4d4;
+    box-shadow:  2px 2px 4px #d4d4d4;
 }
 
 .whyOurServiceContainer{
@@ -293,6 +350,21 @@ button{
     .whyOurServiceContainer{
         width: 33%;
     }
+    .modiRight{
+        width: 83%;
+    }
+
+}
+
+
+@media  (min-width:599px) and (max-width:821px){
+    .serviceOfrLeftContent{
+        width: 40%;
+    }
+
+    .serviceOfrRight .serviceOfrLeftContent {
+        width: 89%;
+    }
 }
 
 
@@ -304,6 +376,7 @@ button{
         display: block;
         height: 42px;
     }
+
 
 
     .btnMain, .btnWords{
@@ -328,10 +401,29 @@ button{
 
 }
 
+
 @media screen and (max-width: 499px){
     .forWhomContainer{
         width: 100%;
     }
+
+    .serviceOffer{
+        display: block;
+    }
+
+    .serviceOfrLeft{
+        width: 100%;
+        display: block;
+    }
+
+    .serviceOfrLeftContent{
+        width: 88%;
+    }
+
+    .serviceOfrRight {
+        width: 100%
+    }
+
     .floImg{
         height: 80px;
     }
