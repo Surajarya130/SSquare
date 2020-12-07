@@ -237,8 +237,8 @@ button{
 .leftSideImg{
     /* float: right; */
     position: relative;
-    left: 0px;
-    top: 0;
+    left: 40px;
+    top: 0px;
     max-width: 95%;
 }
 
@@ -313,6 +313,7 @@ button{
     margin: 15px 14px 20px 15px;
     color: #464545;
     font-size: 15px;
+    text-align: center;
 
 }
 
@@ -405,6 +406,10 @@ button{
 @media screen and (max-width: 499px){
     .forWhomContainer{
         width: 100%;
+    }
+
+    .leftSideImg{
+        left: 0;
     }
 
     .serviceOffer{
