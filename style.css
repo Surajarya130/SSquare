@@ -543,6 +543,7 @@ button{
         width: 83%;
     }
 
+
 }
 
 
@@ -567,16 +568,21 @@ button{
     }
     .btnSect{
         display: block;
-        height: 42px;
+        height: 100px;
     }
 
+    .textOnBtn{
+        /* max-width: 70%; */
+        text-align: center;
+        margin: 0 0 10px 0;
+    }
 
 
     .btnMain, .btnWords{
         justify-content: center;
         position: relative;
         left: 0;
-        top: -20px;
+        /* top: -15px; */
     }
 
     .whyDeclutter .whyDeclutterChild, .beneOfDe-Content, .howHelpDeCont, .howToBookContent{
@@ -596,8 +602,21 @@ button{
 
 
 @media screen and (max-width: 499px){
+
+    .textOnBtn{
+        max-width: 70%;
+        text-align: center;
+        margin: 0 0 10px 0;
+    }
+
     .forWhomContainer{
         width: 100%;
+    }
+
+    .numList span{
+        font-size: 30px;
+        position: relative;
+        top: 10px;
     }
 
     .leftSideImg{
