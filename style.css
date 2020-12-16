@@ -110,10 +110,11 @@ button{
     outline: 0px;
     background-color: #ec008c;
     border-radius: 5px;
-    padding: 12px 25px;
+    padding: 15px 25px;
     font-weight: bold;
     color: #ffffff;
     cursor: pointer;
+    font-size: 15px;
     /*width: 125%;*/
   }
   button:hover{
@@ -122,7 +123,7 @@ button{
 
 .textOnBtn{
     margin: 0;
-    padding-top: 5px;
+    padding-top: 10px;
 }  
 
 .container{
@@ -606,9 +607,12 @@ button{
     .textOnBtn{
         max-width: 70%;
         text-align: center;
-        margin: 0 0 10px 0;
+        margin: 0 0 20px 0;
     }
 
+    .btnSect{
+        height: 148px;
+    }
     .forWhomContainer{
         width: 100%;
     }
